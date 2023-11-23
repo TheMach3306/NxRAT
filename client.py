@@ -3,7 +3,7 @@ import os, sys, socket
 def client():
     message = "Hello from the client..."
     
-    host_ip = "192.168.0.159"
+    host_ip = ""
     host_port = 90
     
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
